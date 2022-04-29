@@ -3,7 +3,7 @@ import React, { useRef, useEffect } from "react";
 
 const MarketingApp = () => {
   const ref = useRef(null);
-
+  console.log({ ref });
   useEffect(() => {
     mount(ref.current);
   }, []);
